@@ -1,0 +1,70 @@
+table{
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  width: 25%;
+  height: 30%;
+}
+
+#s,#r{
+  padding-bottom: 30px;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #9c9a9a;
+}
+
+#d{
+  text-align: center;
+}
+#s{
+  text-align: right;
+}
+#r{
+  text-align: left;
+}
+
+input[type=text]{
+  margin-top: 20px;
+}
+
+input[type=text], input[type=password] {
+  width: 85%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset] {
+  background-color: #45a049;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: red;
+}
